@@ -1,0 +1,140 @@
+@font-face {
+	font-family: 'RockwellBold';
+	src: url('fonts/ROCKB.TTF');
+}
+
+@font-face {
+	font-family: 'Rockwell';
+	src: url('fonts/ROCK.TTF');
+}
+
+body {
+	background: url('img/css/background.png') no-repeat center fixed;
+	background-size: cover;
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+img {
+	border: 2px solid #470000;
+}
+
+.wrapper {
+	width: 1240px;
+	margin: auto;
+}
+
+.float_left {
+	margin: 0 10px 10px 0;
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+	background: rgba(5, 5, 5, 0.90);
+	height: 200px;
+}
+
+header h1 {
+	margin: 0;
+	padding: 20px 0 0 0;
+	line-height: 200px;
+	font-family: 'RockwellBold', Arial, sans-serif;
+	font-size: 100px;
+	color: #b4b4b4;
+}
+
+header .wrapper {
+	background: url('img/css/HeaderBackground.png') no-repeat right center;
+	height: 200px;
+}
+
+nav {
+	height: 50px;
+	background: rgba(5, 5, 5, 0.90);
+	font-size: 0;
+	border-bottom: 2px solid #470000;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 30px;
+	font-family: 'Rockwell', Arial, sans-serif;
+	color: #b4b4b4;
+	text-align: center;
+	width: 413px;
+	line-height: 50px;
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+nav ul li:hover{
+	background-color: rgba(60, 60, 60, 0.75);
+	transition-duration: .6s;
+	transition-timing-function: ease-out;
+
+}
+nav ul .active {
+	background: rgba(50, 50, 50, 0.75);
+}
+
+#content {
+	box-sizing: border-box;
+	background: rgba(5, 5, 5, 0.75);
+	padding: 50px;
+	font-family: "Rockwell", Arial, sans-serif;
+	color: #b4b4b4;
+}
+
+#content h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 50px;
+	text-align: center;
+}
+
+#content h3 {
+	font-size: 36px;
+	text-align: left;
+}
+
+#content h4 {
+	font-size: 26px;
+	text-align: left;
+}
+
+#content p {
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	text-align: justify;
+	text-indent: 30px;
+}
+
+#content ol {
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+}
+
+#content pre {
+	width: 1000px;
+	margin: auto;
+	background: rgba(45, 45, 45, 0.75);
+	padding: 10px;
+	box-sizing: border-box;
+	border: 2px solid #470000;
+	white-space: pre-wrap;
+}
